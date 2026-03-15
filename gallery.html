@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        .gallery-item {
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: white;
+            flex: 1 1 calc(33.333% - 10px);
+            box-sizing: border-box;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            display: block;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Project Gallery</h1>
+    <div class="gallery">
+        <!-- Example images, replace with your own -->
+        <div class="gallery-item"><img src="image1.jpg" alt="Project Image 1"></div>
+        <div class="gallery-item"><img src="image2.jpg" alt="Project Image 2"></div>
+        <div class="gallery-item"><img src="image3.jpg" alt="Project Image 3"></div>
+        
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>
